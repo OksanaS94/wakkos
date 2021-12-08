@@ -7580,6 +7580,10 @@ p {
   margin: 0px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .row {
   margin-right: 0px;
 }
@@ -7605,6 +7609,10 @@ header {
   display: none;
 }
 
+.active_menu-popup {
+  display: block !important;
+}
+
 .menu_popup {
   display: none;
   position: absolute;
@@ -7615,7 +7623,7 @@ header {
   -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
   border-radius: 24px;
-  z-index: 999;
+  z-index: 9999;
 }
 
 .menu_popup > .row > .menu_popup_item {
@@ -7714,6 +7722,16 @@ header {
   border-radius: 12px;
   padding: 5px 14px 10px 14px;
   cursor: pointer;
+  -webkit-transition: background 1s ease;
+  -o-transition: background 1s ease;
+  transition: background 1s ease;
+}
+
+.hero-box__add span:hover {
+  background: #003333;
+  -webkit-transition: background 1s ease;
+  -o-transition: background 1s ease;
+  transition: background 1s ease;
 }
 
 .hero-box__add p {
@@ -9155,7 +9173,17 @@ header {
 }
 
 .related-products_box-descr .hero-box__add span {
-  background-color: #FA9E10;
+  background: #FA9E10;
+  -webkit-transition: background 1s ease;
+  -o-transition: background 1s ease;
+  transition: background 1s ease;
+}
+
+.related-products_box-descr .hero-box__add span:hover {
+  background: #a16303;
+  -webkit-transition: background 1s ease;
+  -o-transition: background 1s ease;
+  transition: background 1s ease;
 }
 
 .contact-us .row {

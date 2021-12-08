@@ -2,7 +2,7 @@
   "name": "start",
   "version": "1.0.0",
   "description": "Start package",
-  "main": "index.html",
+  "main": "/",
   "author": "",
   "license": "ISC",
   "devDependencies": {
